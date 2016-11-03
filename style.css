@@ -1,0 +1,732 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.containerteam{
+  width: 1000px;
+  margin: auto;
+}
+#mask{
+    position: relative;
+    height: 100%;
+}
+.nav1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+#txthead1{
+    color: #26A69A; /**Main color*/
+    font-size: 450%;
+    font-weight: 200;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+#teamtxt{
+    color: #26A69A;
+    font-size: 450%;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+#txthead2{
+    color: #26A69A;
+    font-size: x-large;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.nav2{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#txt {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+    font-weight: 700;
+    padding-top: 200px;
+    color: #04CCBD
+}
+#txt2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+    padding-top: 20px;
+
+}
+#txt3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: white;
+    padding-top: 20px;
+    letter-spacing: 2px;
+
+}
+#Team{
+    float: right;
+}
+.darken {
+  background: no-repeat center center fixed;
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/home.jpg"); /***This is the background image****/
+  min-height: 100%;
+  min-width: 1024px;
+   position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+/*@media screen and (max-width: 1024px) {
+  .darken {
+    left: 50%;
+    margin-left: -512px;   /* 50% 
+  }
+}*/
+.darkensend {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/send.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.darkendeliver {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/deliver.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.darkenteam {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/team.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.darkenfaq {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+  url("assets/faq.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.signupbutton{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.button1 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gettext{
+  border-radius: 2px;
+    height: 62px;
+    float: left;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: white;
+}
+.userphone{
+  border: 0px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto'. sans-serif;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+.button2 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button3 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 35s0px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button4 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button5 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 275px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button6 {
+  border-radius: 4px;
+  background-color: #259D92;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px;
+  width: 275px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.nav1 a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text1 a span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text2 a span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.text3 a span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button6 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1 span:after {
+  content: url("assets/store.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.nav1 a span:after {
+  content: 'drop';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text a span:after {
+  content: url("assets/toluicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text1 a span:after{
+  content: url("assets/hanicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text2 a span:after{
+    content: url("assets/macicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.text3 a span:after{
+    content: url("assets/meinaicon.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.button2 span:after {
+  content: url("assets/bicycle.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button3 span:after {
+  content: url("assets/money.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button4 span:after {
+  content: url("assets/handshake.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button5 span:after {
+  content: url("assets/faq.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button6 span:after {
+  content: url("assets/bizpat.png");
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button1:hover span {
+  padding-right: 40px;
+}
+.nav1:hover a span {
+  padding-right: 160px;
+}
+.text:hover a span {
+  padding-right: 100px;
+}
+.text1:hover a span {
+  padding-right: 100px;
+}
+.text2:hover a span{
+     padding-right: 100px;
+}
+.text3:hover a span {
+  padding-right: 100px;
+}
+.button2:hover span {
+  padding-right: 40px;
+}
+.button3:hover span {
+  padding-right: 40px;
+}
+.button4:hover span {
+  padding-right: 40px;
+}
+
+.button5:hover span {
+  padding-right: 40px;
+}
+.button6:hover span {
+  padding-right: 40px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.nav1:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text1:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text2:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+.text3:hover a span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button6:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.photo{
+    padding-left:100px;
+    padding-top: 20px;
+}
+.photo img{
+    background-image: url("assets/tolu.jpg");
+    background-repeat: no-repeat;
+     height: 150px;
+    width: 150px;
+    float: left;
+    border-radius: 50%
+
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+.text3{
+  margin-bottom: 70px;
+}
+#teamdesc{
+    padding-left: 286px;
+    padding-top: 10px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+.dashbody{
+    height: 100%;
+}.deliv1{
+  width: 800px;
+  margin: auto;
+  height: inherit;
+}
+.delivtxt{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 3em;
+  color: #484848;
+}
+#delivsubtext{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2em;
+  color: #484848;
+  padding-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.delivtxtlower{
+   font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  padding: 25px;
+  font-size: 2em;
+  color: #484848;
+  letter-spacing: 0.3em;
+}
+#delivstep{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+  float: left;
+  font-size: 30px;
+  color: #484848;
+}
+#delivstep1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.7em;
+  color: #484848;
+}
+.teambody{
+  height: 100%;
+}
+/*.footer{
+   width:100%;
+   height:60px;   /* Height of the footer
+   background:#6cf;
+   clear: both;
+    position: relative;
+    z-index: 10;
+    margin-top: -3em;
+}*/
+#android{
+  height: 44px;
+    width: 150px;
+}
+#apple{
+  width: 150px;
+  padding-left: 0px;
+}
+#twitter{
+    margin-left: 286px;
+    padding-top: 20px;
+}
+#linkedin{
+  margin-left: 10px;
+    padding-top: 20px;
+}
+#email{
+   margin-left: 10px;
+    padding-top: 20px;
+  
+  }
+.badges{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/*text box*/
+input {
+    display: block;
+    box-sizing: border-box;
+}
+.delivform{
+ display: inline-block;
+ text-align: center;
+  padding-top: 50px;
+}
+.delivtxtbox{
+    width: 300px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+  color: #484848
+  font-size: 100%;
+  font-weight: bold;
+}
+.list{
+  width: 66.66667%;
+      float: left;
+      margin-left: 200px;
+      clear: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-left: 0;
+}
+.subheader{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  padding-left: 20px;
+  color: #26A69A;
+}
+.subheaderscroll{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding-left: 20px;
+  color: #484848;
+}
+p{
+  color: black;
+}
+ol{
+  list-style: decimal outside;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+li{
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: #04CCBD;
+  font-size: larger;
+}
+a:hover{
+  text-decoration: underline;
+}
+#aboutq{
+  color: #04CCBD;
+}
+.backtotop{
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 20px;
+}
