@@ -1,3 +1,6 @@
+#Link to online Style Guideline
+**https://app.frontify.com/d/V5apSUjdGx3v/dashdrop-style-guide**
+
 Overall Look and Feel of DashDrop
 ===============================
 
