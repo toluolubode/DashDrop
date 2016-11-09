@@ -94,7 +94,7 @@ body, html{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
       ),
-  url("assets/home.jpg"); /***This is the background image****/
+  url("assets/home1.jpg"); /***This is the background image****/
   min-height: 100%;
   min-width: 1024px;
    position: fixed;
